@@ -14,13 +14,9 @@ convert image.png -compress none image.ppm
 ```
 
 
-# Run OpenMP with g++ 
-```
-g++_location -fopenmp file_name.cpp -o output_name  
-./output_name  
-```
+### Run the project (Run OpenMP with g++)
 
-_examples with openmp_
+_run files that have implemented openmp_
 ```
 g++-10 -fopenmp standard_median_filter_omp.cpp -o standard_median_filter_omp  
 ./standard_median_filter_omp
@@ -40,8 +36,7 @@ g++-10 -fopenmp adaptive_median_filter_omp.cpp -o adaptive_median_filter_omp
 ```
 
 
-
-_without omp example_
+_run files that do not have openmp_
 ```
 g++-10 standard_median_filter.cpp -o standard_median_filter  
 ./standard_median_filter

@@ -14,7 +14,7 @@ convert image.png -compress none image.ppm
 ```
 
 
-### Run the project (Run OpenMP with g++)
+### Run the project
 
 _run files that have implemented openmp_
 ```

@@ -13,7 +13,7 @@ brew install imagemagick
 convert image.png -compress none image.ppm
 ```
 
-Input Image: image.ppm
+Input Image: image.ppm  
 Output Images: inside /image_output folder
 
 ### Run the project
